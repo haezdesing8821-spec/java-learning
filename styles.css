@@ -1,5 +1,5 @@
 /* ================================
-   VARIABLES Y CONFIGURACIÓN GLOBAL
+    VARIABLES Y CONFIGURACIÓN GLOBAL
    ================================ */
 
 :root {
@@ -28,7 +28,7 @@ html {
 }
 
 /* ================================
-   RESETEO BÁSICO
+    RESETEO BÁSICO
    ================================ */
 
 *,
@@ -52,7 +52,7 @@ body {
 }
 
 /* ================================
-   SIDEBAR (MENÚ LATERAL)
+    SIDEBAR (MENÚ LATERAL)
    ================================ */
 
 .sidebar {
@@ -124,7 +124,7 @@ body {
 }
 
 /* ================================
-   CONTENIDO PRINCIPAL
+    CONTENIDO PRINCIPAL
    ================================ */
 
 .contenido {
@@ -175,7 +175,7 @@ p {
 }
 
 /* ================================
-   LISTAS DE CONCEPTOS Y DOCS
+    LISTAS DE CONCEPTOS Y DOCS
    ================================ */
 
 .lista-conceptos,
@@ -206,7 +206,7 @@ p {
 }
 
 /* ================================
-   TARJETAS DE EJERCICIOS
+    TARJETAS DE EJERCICIOS
    ================================ */
 
 .tarjetas-ejercicios {
@@ -256,7 +256,7 @@ p {
 }
 
 /* ================================
-   MODO OSCURO (PREPARADO PARA JS)
+    MODO OSCURO (PREPARADO PARA JS)
    ================================ */
 
 /* Cuando el body tenga la clase .modo-oscuro, cambiamos variables */
@@ -293,7 +293,7 @@ body.modo-oscuro .modo-btn:hover {
 }
 
 /* ================================
-   RESPONSIVE (TABLET / MÓVIL)
+    RESPONSIVE (TABLET / MÓVIL)
    ================================ */
 
 @media (max-width: 900px) {
