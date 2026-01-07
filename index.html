@@ -3,41 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Learning – Documentación y Ejercicios</title>
+    <title>Java Learning – Documentación Técnica</title>
 
+    <!-- CSS externo -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- reconstrucción -->
-
+    <!-- JS externo -->
+    <script defer src="js/funciones.js"></script>
 </head>
 
 <body>
 
-    <!-- ====== MENÚ SUPERIOR ====== -->
-    <nav>
-        <a href="#introduccion">Introducción</a>
-        <a href="#conceptos">Conceptos</a>
-        <a href="#ejercicios">Ejercicios</a>
-        <a href="#documentacion">Documentación</a>
-    </nav>
+    <!-- ====== MENÚ LATERAL ====== -->
+    <aside class="sidebar">
+        <h2 class="logo">Java Learning</h2>
 
-    <div class="container">
+        <nav class="menu">
+            <a href="#introduccion">Introducción</a>
+            <a href="#conceptos">Conceptos</a>
+            <a href="#ejercicios">Ejercicios</a>
+            <a href="#documentacion">Documentación</a>
+        </nav>
 
-        <!-- ====== SECCIÓN 1 ====== -->
-        <section id="introduccion" class="section">
-            <h1>Java Learning</h1>
+        <button id="modoOscuroBtn" class="modo-btn">🌙 Modo Oscuro</button>
+    </aside>
+
+    <!-- ====== CONTENIDO PRINCIPAL ====== -->
+    <main class="contenido">
+
+        <!-- INTRODUCCIÓN -->
+        <section id="introduccion" class="seccion">
+            <h1>Bienvenido a Java Learning</h1>
             <p>
-                Bienvenido a mi sitio de aprendizaje de Java.  
-                Aquí documento mi progreso, ejercicios, conceptos importantes y notas personales.
+                Este sitio documenta mi aprendizaje de Java: conceptos, ejercicios, notas personales y recursos.
             </p>
         </section>
 
-        <!-- ====== SECCIÓN 2 ====== -->
-        <section id="conceptos" class="section">
+        <!-- CONCEPTOS -->
+        <section id="conceptos" class="seccion">
             <h2>Conceptos Fundamentales</h2>
-            <p>Aquí iré documentando cada tema que aprenda, sección por sección.</p>
+            <p>Aquí documento cada tema que aprendo, sección por sección.</p>
 
-            <ul>
+            <ul class="lista-conceptos">
                 <li>Variables y tipos de datos</li>
                 <li>Operadores</li>
                 <li>Condicionales</li>
@@ -48,27 +55,48 @@
             </ul>
         </section>
 
-        <!-- ====== SECCIÓN 3 ====== -->
-        <section id="ejercicios" class="section">
+        <!-- EJERCICIOS -->
+        <section id="ejercicios" class="seccion">
             <h2>Ejercicios</h2>
             <p>Enlaces directos a mis ejercicios dentro del repositorio:</p>
 
-            <ul>
-                <li><a href="ruta/ejercicio1.java">Ejercicio 1 – Variables</a></li>
-                <li><a href="ruta/ejercicio2.java">Ejercicio 2 – Condicionales</a></li>
-                <li><a href="ruta/ejercicio3.java">Ejercicio 3 – Bucles</a></li>
-                <li><a href="ruta/ejercicio4.java">Ejercicio 4 – Funciones</a></li>
-                <li><a href="ruta/ejercicio5.java">Ejercicio 5 – POO</a></li>
+            <div class="tarjetas-ejercicios">
+
+                <div class="tarjeta">
+                    <h3>Ejercicio 1</h3>
+                    <p>Variables y tipos de datos</p>
+                    <a href="ejercicios/ejercicio1.java" class="btn">Ver código</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Ejercicio 2</h3>
+                    <p>Condicionales</p>
+                    <a href="ejercicios/ejercicio2.java" class="btn">Ver código</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Ejercicio 3</h3>
+                    <p>Bucles</p>
+                    <a href="ejercicios/ejercicio3.java" class="btn">Ver código</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- DOCUMENTACIÓN -->
+        <section id="documentacion" class="seccion">
+            <h2>Documentación Personal</h2>
+            <p>Aquí enlazo mis archivos Markdown con notas detalladas.</p>
+
+            <ul class="lista-docs">
+                <li><a href="docs/variables.md">Variables</a></li>
+                <li><a href="docs/bucles.md">Bucles</a></li>
+                <li><a href="docs/operadores.md">Operadores</a></li>
+                <li><a href="docs/poo.md">Programación Orientada a Objetos</a></li>
             </ul>
         </section>
 
-        <!-- ====== SECCIÓN 4 ====== -->
-        <section id="documentacion" class="section">
-            <h2>Documentación Personal</h2>
-            <p>Aquí escribiré mis notas, aprendizajes y resúmenes de cada tema.</p>
-        </section>
-
-    </div>
+    </main>
 
 </body>
 </html>
