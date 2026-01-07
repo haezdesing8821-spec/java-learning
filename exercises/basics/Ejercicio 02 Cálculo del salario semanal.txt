@@ -1,0 +1,38 @@
+Ejercicio 02: Cálculo del salario semanal
+
+**🧠 Objetivo**: Practicar
+- Entrada y salida por consola
+- Operaciones aritméticas básicas
+- Pensamiento secuencial (paso a paso)
+
+**📄 Enunciado**:
+
+Un programa debe calcular el salario semanal de un trabajador a partir de los siguientes datos:
+
+- Horas trabajadas en la semana
+- Pago por hora
+
+El programa debe calcular:
+1. El salario bruto
+2. El descuento por impuestos (10% del salario bruto)
+3. El salario neto a pagar
+
+**📥 Entrada**
+
+1. Un número entero que representa las horas trabajadas
+2. Un número decimal que representa el pago por hora
+
+**📤 Salida: **El programa debe mostrar:
+1. Salario bruto
+2. Descuento
+3. Salario neto
+
+**🧾 Ejemplo**
+*Entrada*
+`40
+25.5`
+
+*Salida*
+`Salario bruto: 1020.0
+Descuento: 102.0
+Salario neto: 918.0`

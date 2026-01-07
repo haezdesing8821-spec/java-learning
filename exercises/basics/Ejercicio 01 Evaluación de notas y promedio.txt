@@ -1,0 +1,39 @@
+Ejercicio 01: Evaluación de notas y promedio
+
+**🧠 Objetivo: **: Practicar
+- Estructuras secuenciales
+- Condicionales if / else
+- Bucles for
+- Operadores matemáticos (+, /, %)
+- Lectura de datos por consola
+
+**📄 Enunciado**
+Un programa debe leer N notas ingresadas por el usuario (valores enteros entre 0 y 20), calcular el promedio y mostrar un mensaje según el resultado. 
+Además, el programa debe contar cuántas notas son pares y cuántas son impares.
+
+**📥 Entrada**
+Un número entero N que indica cuántas notas se ingresarán.
+Luego, N números enteros que representan las notas.
+
+**📤 Salida**: El programa debe mostrar:
+1. El promedio de las notas.
+2. Un mensaje según el promedio:
+-  "Aprobado" si el promedio es mayor o igual a 11.
+- "Desaprobado" si el promedio es menor a 11.
+3. La cantidad de notas pares.
+4. La cantidad de notas impares.
+
+🧾 Ejemplo
+Entrada
+`5
+12
+15
+10
+18
+9`
+
+Salida
+`Promedio: 12.8
+Resultado: Aprobado
+Notas pares: 3
+Notas impares: 2`
